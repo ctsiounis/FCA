@@ -107,7 +107,7 @@ public class FCA {
 		while(true){
 			System.out.println("Enter the query. Intent or Extent seperated by space, Ex- 2 3 4 OR a b\nEnter 'Q' to exit.");
 			input = keyboard.nextLine();
-			if(input.equals("Q")) break;
+			if(input.equals("q")) break;
 			else{
 				inputA = Arrays.asList(input.split(" "));
 				Collections.sort(inputA);
